@@ -30,30 +30,37 @@ body {
 
 .nav {
   position: absolute;
-  width: 1150px;
-  height: 20px;
-  padding: 20px 65px;
+  width: 1250px;
+  height: 15px;
+  padding: 20px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: rgba(5, 5, 5, 0.2);
-  border-radius: 20px;
+  border-radius: 30px;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-a .logo {
+/* a .logo {
   display: flex;
   flex-direction: column;
-}
+} */
 
 header .logo {
   color: rgb(255, 255, 255);
   font-weight: 1000;
   text-decoration: none;
   font-size: 2em;
+  padding: 2px 9px;
+  border-radius: 25px;
+}
+
+header .logo:hover {
+  background: rgb(221, 143, 156);
+  box-shadow: 0 1px 5px rgba(255, 255, 255, 0.5);
 }
 
 header ul {
@@ -62,17 +69,27 @@ header ul {
 
 header ul li {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 header ul li a {
   text-decoration: none;
   font-weight: 800;
   color: rgb(255, 255, 255);
+  padding: 2px 9px;
+  border-radius: 25px;
 }
 
-.videoGW {
+header ul li a:hover {
+  background: rgb(221, 143, 156);
+  box-shadow: 0 1px 5px rgba(255, 255, 255, 0.5);
 }
+
+/* .nav ul li a {
+  text-decoration: none;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+} */
 
 .videoGW video {
   width: 100%;
@@ -108,14 +125,17 @@ header ul li a {
   height: 230px;
   width: 600px;
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255<div class="Sbox">
+            <input type="text" placeholder="search" />
+          </div>, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px; */
 }
 .Cposisi {
   /* padding-top: 200px; */
-  padding: 180px 350px;
+  /* padding: 180px 350px; */
+  margin: 10em 21em;
 }
 
 .content h1 {
@@ -123,7 +143,7 @@ header ul li a {
   text-align: center;
   font-weight: 1000;
   font-size: 40px;
-  padding: 10px;
+  padding: px;
 }
 
 .content p {
@@ -162,4 +182,58 @@ header ul li a {
 
 img {
   height: 334px;
+}
+
+.Sbox input {
+  width: 400px;
+  height: 30px;
+  font-size: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700px;
+  border-radius: 1em;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+div .Bdalam {
+  /* position: relative;
+  left: 11em;
+  top: 3em; */
+  /* padding: 40px 0px */
+  margin-top: 40px;
+  margin-left: 11em;
+}
+
+.Bdalam button {
+  position: relative;
+  display: inline;
+  background: rgb(221, 143, 156);
+  padding: 16px 45px;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.5px rgb(221, 143, 156);
+  border: 5px;
+  border-radius: 30px;
+  box-shadow: rgb(221, 143, 156);
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: aliceblue;
+}
+
+button:hover {
+  color: rgb(221, 143, 156);
+  background-color: rgb(12, 173, 173);
+}
+
+button a {
+  text-decoration: none;
+  text-align: center;
+  color: aliceblue;
 }
