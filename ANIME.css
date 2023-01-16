@@ -137,9 +137,9 @@ header ul li a {
 
 .read > a {
   position: absolute;
-  width: 110px;
-  height: 20px;
-  padding: 10px;
+  width: 100px;
+  height: 15px;
+  padding: 15px;
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
@@ -161,5 +161,5 @@ header ul li a {
 }
 
 img {
-  height: 350px;
+  height: 334px;
 }
